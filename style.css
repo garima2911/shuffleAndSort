@@ -1,54 +1,54 @@
 * {
   box-sizing: border-box;
 }
-header{
+header {
   text-align: center;
 }
-footer{
+footer {
   text-align: center;
   padding: 1%;
   font-size: 12px;
 }
 
-@media only screen and (min-width: 769px){
-body{
+@media only screen and (min-width: 769px) {
+  body {
     background: #d3d3d3;
   }
-.container {
+  .container {
     display: flex;
     justify-content: center;
   }
-.grid {
-  width : 400px;
-  height: 400px;
-  display: flex;
-  flex-wrap: wrap;
-}
-.item {
-  width: 33.33%;
-  height: 33.33%;
-  color: white;
-  font-size: 25px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
+  .grid {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .item {
+    width: 33.33%;
+    height: 33.33%;
+    color: white;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
 
-.btn {
-  background: #72c3dc;
-  width: 100px;
-  height: 40px;
-  color: #ffffff;
-  border: none;
-  box-shadow: 1px 2px solid white;
-  box-shadow: 0px 6px #2b8ead;
-  margin: 5%;
-  border-radius: 3px;
-}
+  .btn {
+    background: #72c3dc;
+    width: 100px;
+    height: 40px;
+    color: #ffffff;
+    border: none;
+    box-shadow: 1px 2px solid white;
+    box-shadow: 0px 6px #2b8ead;
+    margin: 5%;
+    border-radius: 3px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-  body{
+  body {
     background: #ffffff;
   }
   .container {
@@ -70,7 +70,7 @@ body{
     margin: 3px;
     background: #d3d3d3;
   }
-  .btn-container{
+  .btn-container {
     display: flex;
     flex-direction: row;
     flex-grow: 1;
@@ -87,5 +87,4 @@ body{
     border-radius: 3px;
     margin: 5%;
   }
-  }
-
+}
