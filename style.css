@@ -61,7 +61,7 @@ body{
     flex-direction: column;
   }
   .item {
-    color: white;
+    color: #000000;
     height: 40px;
     font-size: 25px;
     justify-content: center;
